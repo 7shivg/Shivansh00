@@ -1,0 +1,65 @@
+.NavbarItems {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 68px;
+  padding: 0 50px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: #d2d1e6;
+  box-shadow: 0 10px 15px rgba(15, 14, 14, 0.21);
+}
+.navbar-logo {
+  color: rgb(55, 68, 140);
+  font-size: 2rem;
+  font-weight: 800;
+  curser: pointer;
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  grid-gap: 10px;
+  list-style: none;
+  align-items: center;
+}
+
+.nav-links {
+  color: rgb(51, 57, 92);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  font-size: 1.2rem;
+  white-space: nowrap;
+  border-radius: 10px;
+}
+.nav-links i {
+  padding-right: 10px;
+}
+.nav-links:hover {
+  background-color: rgb(65, 76, 138);
+  color: #fff;
+  border-radius: 10px;
+  transition: all 0.5s ease-in-out;
+}
+.nav-links-mobile {
+  display: none;
+}
+button {
+  padding: 0.5rem 1rem;
+  white-space: nowrap;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  background-color: #d2d1e6;
+  color: rgb(55, 68, 140);
+}
+button:hover {
+  background-color: rgb(65, 76, 138);
+  color: #fff;
+  border-radius: 10px;
+  transition: all 0.5s ease-in-out;
+}
